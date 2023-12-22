@@ -1,0 +1,172 @@
+:root {
+    --boutomColor: #1A1B1F;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 75px;
+    justify-content: space-around;
+}
+
+.logo {
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: var(--boutomColor);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+
+}
+
+.list-ul ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.list-ul ul li {
+    padding-top: 10px;
+    padding-left: 25px;
+    color: rgb(138, 133, 126);
+
+}
+
+.list-ul ul li:hover {
+    color: black;
+}
+
+.boutom-us {
+    margin: 18px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: var(--boutomColor);
+    width: 100px;
+}
+
+.ar1 {
+    margin-left: 50px;
+    width: 90%;
+    height: 500px;
+    background-image: url(https://png.pngtree.com/background/20230616/original/pngtree-minimalist-black-wavy-stripe-line-texture-background-created-with-3d-rendering-picture-image_3649593.jpg);
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.p1p2p3 {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.p1 {
+    margin: 10px;
+    font-size: 50px;
+}
+
+.p2 {
+    font-size: 16px;
+    color: rgba(185, 176, 176, 0.808);
+}
+
+.p3 {
+    padding: 10px;
+    margin-left: 65px;
+    width: 150px;
+    background-color: white;
+    color: var(--boutomColor);
+}
+
+.with-p {
+    padding-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: rgba(185, 176, 176, 0.808);
+}
+
+.grow-p {
+    margin-left: 450px;
+    width: 442px;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.ar2 {
+    padding-top: 10px;
+    margin-left: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.image-one {
+    width: 700px;
+    height: 300px;
+
+}
+
+.image-one img {
+
+    width: 700px;
+    height: 400px;
+}
+
+.about-one {
+    width: 300px;
+    height: 450px;
+}
+
+.about-onep {
+    font-size: small;
+    color: rgba(185, 176, 176, 0.808);
+}
+
+.who-p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 35px;
+}
+
+.about-lorem {
+    color: rgba(185, 176, 176, 0.808);
+}
+
+.about-lern {
+    width: 125px;
+    padding: 10px;
+    background-color: var(--boutomColor);
+    color: white;
+}
+
+.ar3 {
+    padding-top: 10px;
+    margin-left: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ar5 {
+    padding-top: 10px;
+    margin-left: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
